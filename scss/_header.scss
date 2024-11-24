@@ -7,6 +7,7 @@ header {
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(3.5px);
     @include flexCenterJustify;
     padding: 0.8rem 0.8rem 0.8rem 2.1rem;
     .left-content {
