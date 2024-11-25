@@ -75,6 +75,18 @@
       line-height: 150%;
     }
   }
+  @include responsive("laptop") {
+    max-width: 100%;
+    .icon {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+  @include responsive("tablet") {
+  }
 }
 
 .review {
