@@ -31,6 +31,22 @@
       color: $gray-300;
     }
   }
+  @include responsive("tablet") {
+    margin: 0 auto;
+    input {
+      text-align: left;
+    }
+  }
+  @include responsive("mobile") {
+    justify-content: space-between;
+    input {
+      max-width: 15rem;
+    }
+    .btn-primary {
+      padding: 1.2rem 2rem;
+      font-size: 1.6rem;
+    }
+  }
 }
 
 .card-resource {
@@ -79,5 +95,8 @@
         color: $gray-600;
       }
     }
+  }
+  @include responsive("tablet") {
+    justify-content: center;
   }
 }
